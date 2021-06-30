@@ -74,8 +74,8 @@
     ]
   },
   {
-    "id": 3,
-    "courseName": "NavGurukul ka Constitution - Hindi",
+    "id": "3",
+    "courseName": "NavGurukul Constitution - Hindi",
     "exercise": [
       {
         "id": 1,
@@ -96,6 +96,11 @@
             "name": "Right to Dissent read kro"
           }
         ]
+      },
+      {
+        "id": 3,
+        "exerName": "some new feature",
+        "sub_exercise": []
       }
     ]
   },
