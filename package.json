@@ -1,0 +1,16 @@
+{
+  "name": "createapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nehayadav",
+  "license": "ISC",
+  "dependencies": {
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "knex": "^0.95.6"
+  }
+}

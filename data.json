@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "courseName": "Understanding programming through recursion",
+    "exercise": [
+      {
+        "id": 1,
+        "exerName": "Pending To-Dos (for course creators)",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "Pending Tasks"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "exerName": "introduction",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "Prerequitisites"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "exerName": "submission_type: url",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "hint"
+          },
+          {
+            "id": 2,
+            "name": "pattern"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "courseName": "NavGurukul ka Constitution - Hindi",
+    "exercise": [
+      {
+        "id": 1,
+        "exerName": "NavGurukul Constitution",
+        "sub_exercise": [
+          {
+            "di": 1,
+            "name": "Section III - Complaints"
+          },
+          {
+            "di": 2,
+            "name": "Section IV - Elections"
+          },
+          {
+            "id": 3,
+            "name": "Ethics of Election "
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "exerName": "Section V - Rules & Regulations",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "Section V - Rules & Regulations"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "courseName": "NavGurukul ka Constitution - Hindi",
+    "exercise": [
+      {
+        "id": 1,
+        "exerName": "NavGurukul Constitution",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "Section IV - Rules"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "exerName": "Right to Dissent",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "Right to Dissent read kro"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "courseName": "FUNCTION",
+    "exercise": [
+      {
+        "id": 1,
+        "exerName": "Functions",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "Basics of Functions"
+          },
+          {
+            "id": 2,
+            "name": "Introduction to Functions"
+          },
+          {
+            "id": 3,
+            "name": "Function Call ko samajhna"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "exerName": "Question 1",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "Question 1 (Part 1)"
+          },
+          {
+            "id": 2,
+            "name": "Question 2 (Part 2)"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "exerName": "Pre-defined Functions Questions",
+        "sub_exercise": [
+          {
+            "id": 1,
+            "name": "defined Functions Questions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "courseName": "PROBLEM Solving",
+    "exercise": [
+      {
+        "id": 1,
+        "exerName": "Introduction Problem Solving",
+        "sub_exercise": []
+      },
+      {
+        "id": 2,
+        "exerName": "Getting Started",
+        "sub_exercise": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "courseName": "English Movie",
+    "exercise": []
+  }
+]
