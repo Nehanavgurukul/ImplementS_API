@@ -117,7 +117,7 @@ app.put("/update/:id",(req,res) => {
 
 })
 
-console.log("7 APIs created");
+
 
 
 
