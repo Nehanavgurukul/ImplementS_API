@@ -30,7 +30,6 @@ app.get("/get/course/:id",(req,res) => {
 });
 
 
-
 // create API for all exercise .
 app.get("/courses/full/exercise",(req,res) => {
     let jsondata = fs.readFileSync("data.json");
@@ -119,6 +118,7 @@ app.put("/update/:id",(req,res) => {
 })
 
 console.log("7 APIs created");
+
 
 
 app.listen(MY_PORT,() => {
