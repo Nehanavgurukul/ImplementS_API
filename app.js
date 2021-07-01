@@ -55,6 +55,43 @@ app.get("/course/exercise/:id",(req,res) => {
     }
 })
 
+// create API for sub_exercise .
+app.get("/courses/exercise/fullsubexercise",(req,res) => {
+    let jsondata = fs.readFileSync("data.json");
+    let jsdata = JSON.parse(jsondata);
+    let sub_exercise_array = []
+    for (i of jsdata){
+        for(j of i.exercise){
+            sub_exercise_array.push(j.sub_exercise)
+        }
+    }
+    console.log(sub_exercise_array)
+    res.send(sub_exercise_array)
+})
+
+
+// create API for sub_exercise by id
+app.get("/get/exercise/:id/subexercise/:id",(req,res) => {
+    let jsondata = fs.readFileSync("data.json");
+    let jsdata = JSON.parse(jsondata);
+    let id1 = req.params.id
+    let id2 = req.params.id
+    for(i of jsdata){
+        if(i.id == id1){
+            for(j of i.exercise){
+                if(j.id  == id2){
+                    if(j.sub_exercise.length == 0){
+                        res.send("empty sub_exercise []")
+                    }
+                    let sub_exercise = j.sub_exercise
+                    res.send(sub_exercise)
+                }
+            }
+        }
+    }
+    res.send("this id is not here")
+})
+
 
 
 // create API for add new course .
@@ -116,8 +153,6 @@ app.put("/update/:id",(req,res) => {
     res.send(jsdata)
 
 })
-
-
 
 
 
